@@ -1,0 +1,11 @@
+<div class="element">  
+    <a [href]="business.url"  target="_blank" class="imagePart">
+        <img class="imgBusiness" [src]="business.image_url">
+    </a>
+    <div class="textPart">
+        <label class="text" class="result_text">{{business.name}}</label>
+        <br>
+        <label class="text" class="result_text">{{business.location.display_address[0]}}, {{business.location.display_address[1]}}</label>
+    </div>
+    
+</div>

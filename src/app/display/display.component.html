@@ -1,0 +1,6 @@
+<div class="center">
+    <app-form-page (formOutput)="refresh($event)"></app-form-page>
+</div>
+<div class="result_data" class=".transformContainer">
+    <app-result class="result" *ngFor="let business of output" [business]='business'></app-result>
+</div>
